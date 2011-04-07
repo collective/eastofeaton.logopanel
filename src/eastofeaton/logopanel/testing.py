@@ -19,8 +19,8 @@ class EastofeatonLogoPanel(PloneSandboxLayer):
                        eastofeaton.logopanel,
                        context=configurationContext)
 
-        def setUpPloneSite(self, portal):
-            applyProfile(portal, 'eastofeaton.logopanel:default')
+    def setUpPloneSite(self, portal):
+        applyProfile(portal, 'eastofeaton.logopanel:default')
 
 EASTOFEATON_LOGOPANEL_FIXTURE = EastofeatonLogoPanel()
 EASTOFEATON_LOGOPANEL_INTEGRATION_TESTING = \
