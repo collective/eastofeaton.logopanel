@@ -27,7 +27,8 @@ setup(name='eastofeaton.logopanel',
       author_email='cris@crisewing.com',
       url='https://github.com/cewing/eastofeaton.logopanel',
       license='gpl',
-      packages=find_packages(exclude=['ez_setup']),
+      packages = find_packages('src'),
+      package_dir = {'': 'src'},
       namespace_packages=['eastofeaton'],
       include_package_data=True,
       zip_safe=False,
@@ -35,4 +36,9 @@ setup(name='eastofeaton.logopanel',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
+	  extras_require={'test': ['plone.app.testing']},
+	  entry_points="""
+	  [z3c.autoinclude.plugin]
+	  target = plone
+	  """,
       )
