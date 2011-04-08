@@ -5,9 +5,9 @@
  <configlet title="Site Logo" 
             action_id="LogoPanel"
             appId="LogoPanel" 
-            category="Products"
+            category="Plone"
             condition_expr=""
-            icon_expr="string:/logoicon.png"
+            icon_expr="string:${portal_url}/logoIcon.png"
             url_expr="string:${portal_url}/@@logopanel"
             visible="True"
             i18n:attributes="title">
