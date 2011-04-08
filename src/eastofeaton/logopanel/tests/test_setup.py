@@ -38,4 +38,5 @@ class TestSetup(unittest.TestCase):
         # assert configlet is in correct category
         for configlet in self.cp.listActions():
             if configlet.id == expected_id:
-                self.assertTrue(configlet.category == 'Products')
+                self.assertTrue(configlet.category == 'Plone',
+                                "%s configlet appears to be in the wrong category")
