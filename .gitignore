@@ -5,3 +5,5 @@ var
 .installed.cfg
 *.pyc
 *.egg-info
+disy
+MANIFEST

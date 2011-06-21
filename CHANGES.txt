@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.0-dev (unreleased)
----------------------
+1.0 (2011-06-20)
+----------------
 
 - Created simple Plone control panel which adds the uploaded file as 'logo.png'
   to the custom skin folder or, if that is missing, to the site root.
