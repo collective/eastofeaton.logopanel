@@ -1,6 +1,7 @@
 include MANIFEST.in
 include *.rst
 include *.txt
+include *.zcml
 recursive-include eastofeaton *
 recursive-include docs *
 global-exclude *pyc .gitignore
