@@ -1,8 +1,10 @@
 include MANIFEST.in
-include *.rst
-include *.txt
-include *.zcml
 recursive-include eastofeaton *
 recursive-include docs *
+recursive-include src *.txt
+recursive-include src *.rst
+recursive-include src *.conf *.zcml *.in
+recursive-include src *.css *.gif *.html *.js *.pt *.xml *.jpg
+recursive-include src *.mo *.po
 global-exclude *pyc .gitignore
 prune dis

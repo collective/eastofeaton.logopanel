@@ -1,5 +1,6 @@
 bin
 parts
+dist
 develop-eggs
 var
 .installed.cfg

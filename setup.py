@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.0a1'
+version = '1.1'
 
 long_description = (
     open('README.rst').read()
@@ -23,8 +23,8 @@ setup(name='eastofeaton.logopanel',
         "Programming Language :: Python",
         ],
       keywords='plone',
-      author='Cris Ewing',
-      author_email='cris@crisewing.com',
+      author='eleddy',
+      author_email='eleddy@eastofeaton.com',
       url='https://github.com/cewing/eastofeaton.logopanel',
       license='gpl',
       packages = find_packages('src'),
